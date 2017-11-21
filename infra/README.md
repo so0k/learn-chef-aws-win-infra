@@ -35,7 +35,7 @@
 
 Note to get rid of pesky Internet Explorer enhanced security:
 
-![disable enhanced security](pic/Disable-IE-Enhanced-Security-In-Windows-Server-2012-R2-Snap2.jpg)
+![disable enhanced security](pic/Disable-IE-Enhanced-Security-In-Windows-Server-2012-R2-Snap2.png)
 
 ## Chef 
 
