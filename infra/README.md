@@ -1,5 +1,7 @@
 # Set up for Chef Tutorial
 
+## Terraform
+
 1.  Set up aws-cli with your AWS Access Keys
 1.  Run Terraform plan
 1.  if encrypted - Decrypt private key
@@ -35,4 +37,11 @@ Note to get rid of pesky Internet Explorer enhanced security:
 
 ![disable enhanced security](pic/Disable-IE-Enhanced-Security-In-Windows-Server-2012-R2-Snap2.jpg)
 
+## Chef 
+
+Source: https://learn.chef.io/modules/learn-the-basics/windows/aws/set-up-a-machine-to-manage#/
+
+```powershell
+. { iwr -useb https://omnitruck.chef.io/install.ps1 } | iex; install -project chefdk -channel stable -version 2.0.28
+```
 
